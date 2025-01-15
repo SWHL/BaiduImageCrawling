@@ -23,6 +23,7 @@ jobs:
 
       - name: Unit testings
         run: |
+          pip install pytest
           pytest tests/test_main.py
 
   GenerateWHL_PushPyPi:
