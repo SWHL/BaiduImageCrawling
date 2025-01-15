@@ -1,17 +1,17 @@
-## Baidu Image Spider
+## Baidu Image Crawling
 
-一个超级轻量的百度图片爬虫, modified from <https://github.com/kong36088/BaiduImageSpider>
+一个超级轻量的百度图片爬虫, modified from <https://github.com/kong36088/BaiduImageCrawling>
 
 ### 安装
 
 ```bash
-pip install baidu_image_spider
+pip install baidu_image_crawling
 ```
 
 ### Python使用
 
 ```python
-from baidu_image_spider.main import Crawler
+from baidu_image_crawling.main import Crawler
 
 crawler = Crawler(0.05, save_dir="outputs")  # 抓取延迟为 0.05
 
@@ -22,14 +22,14 @@ crawler(word="美女", total_page=2, start_page=1, per_page=30)
 ### 终端使用
 
 ```bash
-baidu_image_spider -w 美女 -tp 1 -sp 1 -pp 2
+baidu_image_crawling -w 美女 -tp 1 -sp 1 -pp 2
 ```
 
 查看参数文档：
 
 ```bash
-$ baidu_image_spider -h
-usage: baidu_image_spider [-h] -w WORD -tp TOTAL_PAGE -sp START_PAGE [-pp [PER_PAGE]] [-sd SAVE_DIR] [-d DELAY]
+$ baidu_image_crawling -h
+usage: baidu_image_crawling [-h] -w WORD -tp TOTAL_PAGE -sp START_PAGE [-pp [PER_PAGE]] [-sd SAVE_DIR] [-d DELAY]
 
 options:
   -h, --help            show this help message and exit

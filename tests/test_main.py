@@ -13,7 +13,7 @@ root_dir = cur_dir.parent
 
 sys.path.append(str(root_dir))
 
-from baidu_image_spider.main import main
+from baidu_image_crawling.main import main
 
 
 @pytest.mark.parametrize(

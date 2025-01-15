@@ -23,7 +23,7 @@ def get_readme():
     return readme
 
 
-MODULE_NAME = "baidu_image_spider"
+MODULE_NAME = "baidu_image_crawling"
 obtainer = GetPyPiLatestVersion()
 try:
     latest_version = obtainer(MODULE_NAME)
@@ -47,7 +47,7 @@ setuptools.setup(
     description="Baidu Image Spider",
     author="SWHL",
     author_email="liekkaskono@163.com",
-    url="https://github.com/SWHL/BaiduImageSpider",
+    url="https://github.com/SWHL/BaiduImageCrawling",
     license="Apache-2.0",
     include_package_data=True,
     install_requires=read_txt("requirements.txt"),

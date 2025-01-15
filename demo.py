@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 # @Author: SWHL
 # @Contact: liekkaskono@163.com
-from baidu_image_spider.main import Crawler
+from baidu_image_crawling.main import Crawler
 
 crawler = Crawler(0.05, save_dir="outputs")  # 抓取延迟为 0.05
 
