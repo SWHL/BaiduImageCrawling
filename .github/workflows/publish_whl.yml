@@ -23,7 +23,7 @@ jobs:
 
       - name: Unit testings
         run: |
-          pip install pytest
+          pip install pytest fake_useragent
           pytest tests/test_main.py
 
   GenerateWHL_PushPyPi:
