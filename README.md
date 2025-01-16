@@ -1,4 +1,19 @@
-## Baidu Image Crawling
+<div align="center">
+  <div align="center">
+    <h1><b>🕷️ Baidu Image Crawling</b></h1>
+  </div>
+
+<a href=""><img src="https://img.shields.io/badge/Python->=3.6,<3.12-aff.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/OS-Linux%2C%20Win%2C%20Mac-pink.svg"></a>
+<a href="https://pypi.org/project/baidu_image_crawling/"><img alt="PyPI" src="https://img.shields.io/pypi/v/baidu_image_crawling"></a>
+<a href="https://pepy.tech/project/baidu_image_crawling"><img src="https://static.pepy.tech/personalized-badge/baidu_image_crawling?period=total&units=abbreviation&left_color=grey&right_color=blue&left_text=Downloads"></a>
+<a href="https://github.com/SWHL/BaiduImageCrawling/stargazers"><img src="https://img.shields.io/github/stars/SWHL/BaiduImageCrawling?color=ccf"></a>
+<a href="https://semver.org/"><img alt="SemVer2.0" src="https://img.shields.io/badge/SemVer-2.0-brightgreen"></a>
+<a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
+</div>
+
+### 简介
 
 一个超级轻量的百度图片爬虫, modified from <https://github.com/kong36088/BaiduImageCrawling>
 
